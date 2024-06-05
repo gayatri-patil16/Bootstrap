@@ -1,0 +1,138 @@
+
+.navbar-nav,{
+	margin-left: auto;
+}
+#navbarNav a{
+	color: white;
+}
+	
+.form-inline{
+	padding-left: 900px;
+}
+ #carouselExampleSlidesOnly .carousel-inner .carousel-item img {
+            object-fit: cover;
+            max-height: 100vh; 
+        }
+#carouselExampleSlidesOnly .carousel-caption {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+#navbarNav a:hover{
+	  text-decoration: none;
+    background-color:azure;
+    color: black;
+
+}
+
+#car_para{
+	
+	font-size: 1.5rem ;
+}
+
+#menu,#gallery{
+	text-align: center;
+	font-size: 2rem;
+	color: black;
+	padding: 20px;
+
+}
+.card{
+   height: 500px;
+}
+.card-title{
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+            .card {
+                min-height: 500px; 
+            }
+        }
+@media (max-width: 767.98px) {
+            .carousel-caption {
+                text-align: center; 
+            }
+            .navbar-nav, .form-inline {
+                margin: 0; 
+            }
+            .navbar-nav .nav-item {
+                margin: 0 5px; 
+            }
+        }
+
+
+#footer{
+	background-color: black;
+	color: white;
+	}
+
+span{
+	color: white;
+}
+.font {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+	font-size: 2rem;
+}
+body{
+	 background-color: #e3dcc8;
+}
+
+
+#about_con {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: black;
+}
+#abt{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+}
+        
+#abt_img{
+      display: block; 
+      margin: auto; 
+      max-width: 100%; 
+      height: auto; 
+}
+#abt_para{
+   font-size: 20px;
+   margin-top: 30px;
+   text-align: justify;
+}
+
+#contact_con {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: black;
+}
+
+#cnt{
+      text-align: center;
+}
+ 
+#sendbtn{
+	       margin: 5px;
+}
+		 
+#map-container {
+            display: flex;
+            justify-content: center;
+}
+
+ #map {
+        width: 450px; 
+        height: 450px; 
+        border: 2px solid #000; 
+}

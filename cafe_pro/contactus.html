@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact us</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	  <style>
+        
+        body {
+            
+            background-color: #e3dcc8;
+        }
+        #contact_con {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: black;
+        }
+        #cnt{
+        	text-align: center;
+        }
+        #sendbtn{
+	        margin: 5px;
+		}
+		 #map-container {
+            display: flex;
+            justify-content: center;
+        }
+        #map {
+            width: 450px; 
+            height: 450px; 
+            border: 2px solid #000; 
+        }
+    </style>
+</head>
+<body>
+  <!--contact us section-->
+ <h1 id="cnt"> Contact Us</h1>
+
+<div class="container-fluid" id="contact_con">
+ 
+  <br>
+ 
+  <div class="row">
+    <div class="col-md-6 mx-auto" id="map-container" >
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119270.56240583095!2d77.67934367568623!3d20.904067449340022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a67774bc15%3A0x3c7b3f78ca4f9635!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713647512629!5m2!1sen!2sin" width="450" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</div><br><br><br>
+    <div class="row">
+    <div class="col-md-6 mx-auto">
+      <h4 align="center"> Contact Form </h4>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+          <input type="text" placeholder="Enter Fullname" class="form-control"></div>
+          
+          <div class="form-group">
+          <input type="email" placeholder="Enter Email ID" class="form-control"></div>
+        </div>
+        
+          <textarea class="form-control" rows="6"> Message </textarea>
+          
+          <button class="btn btn-secondary" id="sendbtn">SEND</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end of contact section-->
+
+
+</body>
+</html>
